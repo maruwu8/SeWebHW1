@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📘 Books with Highlighting</title>
+  <style>
+    body {
+      font-family: Raleway, sans-serif;
+      background: #f9f4ff;
+      padding: 2rem;
+    }
+
+    select {
+      padding: 0.6rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+
+    .match {
+      background-color: #fff89a;
+    }
+
+    .no-match {
+      background-color: #d4fdd4;
+    }
+
+    .book {
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+<h2>📘 Books Highlighted by User Level</h2>
+
+<label for="userDropdown">Select User:</label>
+<select id="userDropdown">
+  <option value="">-- Select --</option>
+</select>
+
+<div id="xsl-container">Loading...</div>
+
+<script>
+  async function loadXSLBooks(userLevel = '') {
+    const [xmlRes, xslRes] = await Promise.all([
+      fetch('books.xml'),
+      fetch('books.xsl')
+    ]);
+
+    const xmlText = await xmlRes.text();
+    const xslText = await xslRes.text();
+
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(xmlText, 'application/xml');
+    const xsl = parser.parseFromString(xslText, 'application/xml');
+
+    const xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    xsltProcessor.setParameter(null, 'userLevel', userLevel);
+
+    const resultDocument = xsltProcessor.transformToFragment(xml, document);
+    const container = document.getElementById('xsl-container');
+    container.innerHTML = '';
+    container.appendChild(resultDocument);
+  }
+
+  async function loadUsers() {
+    const res = await fetch('/api/users');
+    const users = await res.json();
+    const dropdown = document.getElementById('userDropdown');
+
+    users.forEach((user, i) => {
+      const option = document.createElement('option');
+      option.value = user.readingLevel[0];
+      option.textContent = `${user.name[0]} ${user.surname[0]} (${user.readingLevel[0]})`;
+      dropdown.appendChild(option);
+    });
+
+    dropdown.addEventListener('change', () => {
+      const selectedLevel = dropdown.value;
+      loadXSLBooks(selectedLevel);
+    });
+  }
+
+  loadUsers().then(() => {
+    loadXSLBooks(); // default view
+  });
+</script>
+</body>
+</html>

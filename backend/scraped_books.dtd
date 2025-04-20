@@ -1,0 +1,7 @@
+<!ELEMENT books (book+)>
+        <!ELEMENT book (title, themes, levels)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT themes (theme, theme)>
+        <!ELEMENT theme (#PCDATA)>
+        <!ELEMENT levels (level, level, level)>
+        <!ELEMENT level (#PCDATA)>

@@ -1,0 +1,6 @@
+<!ELEMENT users (user)>
+        <!ELEMENT user (name, surname, preferredTheme, readingLevel)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT surname (#PCDATA)>
+        <!ELEMENT preferredTheme (#PCDATA)>
+        <!ELEMENT readingLevel (#PCDATA)>

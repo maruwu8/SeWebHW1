@@ -1,0 +1,37 @@
+.recommendation-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(100, 0, 150, 0.08);
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.recommendation-box h2, .recommendation-box h3 {
+    color: #6a0572;
+}
+
+.recommendation-box select {
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    margin: 1rem 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.recommendation-box ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+    color: #444;
+}
+
+.user-info {
+    margin: 1rem 0;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.user-info p {
+    margin: 0.3rem 0;
+}
