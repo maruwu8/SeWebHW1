@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<books>
+  <book>
+    <title>1984 by George Orwell</title>
+    <themes>
+      <theme>Graphic Novel</theme>
+      <theme>Drama</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Adventures of Huckleberry Finn by Mark Twain</title>
+    <themes>
+      <theme>Self-Help</theme>
+      <theme>Contemporary Fiction</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Adventures of Sherlock Holmes by Arthur Conan Doyle</title>
+    <themes>
+      <theme>Dystopian Fiction</theme>
+      <theme>Mystery</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Alchemist by Paulo Coelho</title>
+    <themes>
+      <theme>Science Fiction</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Aleph and Other Stories by Jorge Luis Borges</title>
+    <themes>
+      <theme>Adventure</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Animal Farm by George Orwell</title>
+    <themes>
+      <theme>Adventure</theme>
+      <theme>Non-Fiction</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Aesop's Fables by Aesop</title>
+    <themes>
+      <theme>Contemporary Fiction</theme>
+      <theme>Adventure</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Alice's Adventures in Wonderland by Lewis Carroll</title>
+    <themes>
+      <theme>Biography</theme>
+      <theme>Young Adult</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Anna Karenina by Leo Tolstoy</title>
+    <themes>
+      <theme>Young Adult</theme>
+      <theme>Non-Fiction</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Anne of Green Gables by L.M. Montgomery</title>
+    <themes>
+      <theme>Young Adult</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>As I Lay Dying by William Faulkner</title>
+    <themes>
+      <theme>Horror</theme>
+      <theme>Fantasy</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Beloved by Toni Morrison</title>
+    <themes>
+      <theme>Non-Fiction</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Book Thief by Markus Zusak</title>
+    <themes>
+      <theme>Horror</theme>
+      <theme>Non-Fiction</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Brave New World by Aldous Huxley</title>
+    <themes>
+      <theme>Romance</theme>
+      <theme>Graphic Novel</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Brothers Karamazov by Fyodor Dostoevsky</title>
+    <themes>
+      <theme>Poetry</theme>
+      <theme>Fantasy</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Catch-22 by Joseph Heller</title>
+    <themes>
+      <theme>Science Fiction</theme>
+      <theme>Contemporary Fiction</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Catcher in the Rye by J.D. Salinger</title>
+    <themes>
+      <theme>Mystery</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Charlie and the Chocolate Factory by Roald Dahl</title>
+    <themes>
+      <theme>Self-Help</theme>
+      <theme>Poetry</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Charlotte's Web by E. B White</title>
+    <themes>
+      <theme>Children Literature</theme>
+      <theme>Graphic Novel</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Call of the Wild by Jack London</title>
+    <themes>
+      <theme>Mystery</theme>
+      <theme>Poetry</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>A Clockwork Orange by Anthony Burgess</title>
+    <themes>
+      <theme>Biography</theme>
+      <theme>Poetry</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Code of the Woosters by P.G. Wodehouse</title>
+    <themes>
+      <theme>Science Fiction</theme>
+      <theme>Contemporary Fiction</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Collected of Edgar Allan Po by Edgar Allan Poe</title>
+    <themes>
+      <theme>Adventure</theme>
+      <theme>Science Fiction</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Color Purple: A Novel by Alice Walker</title>
+    <themes>
+      <theme>Drama</theme>
+      <theme>Science Fiction</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Coraline by Neil Gaiman</title>
+    <themes>
+      <theme>Historical Fiction</theme>
+      <theme>Graphic Novel</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Count of Monte Cristo by Alexandre Dumas</title>
+    <themes>
+      <theme>Dystopian Fiction</theme>
+      <theme>Horror</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Crime and Punishment by Fyodor Dostoyevsky</title>
+    <themes>
+      <theme>Science Fiction</theme>
+      <theme>Romance</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Curious Incident of the Dog in the Night-Time by Mark Haddon</title>
+    <themes>
+      <theme>Children Literature</theme>
+      <theme>Classic Literature</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Death of Artemio Cruz by Carlos Fuentes</title>
+    <themes>
+      <theme>Thriller</theme>
+      <theme>Young Adult</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Diary of a Madman and Other Stories by Lu Xun</title>
+    <themes>
+      <theme>Self-Help</theme>
+      <theme>Young Adult</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Anne Frank: The Diary of a Young Girl by Anne Frank</title>
+    <themes>
+      <theme>Self-Help</theme>
+      <theme>Drama</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Divine Comedy by Dante Alighieri</title>
+    <themes>
+      <theme>Classic Literature</theme>
+      <theme>Graphic Novel</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Don Quixote by Miguel de Cervantes Saavedra</title>
+    <themes>
+      <theme>Self-Help</theme>
+      <theme>Fantasy</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Dracula by Bram Stoker</title>
+    <themes>
+      <theme>Fantasy</theme>
+      <theme>Young Adult</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Emma by Jane Austen</title>
+    <themes>
+      <theme>Dystopian Fiction</theme>
+      <theme>Graphic Novel</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>Fahrenheit 451 by Ray Bradbury</title>
+    <themes>
+      <theme>Classic Literature</theme>
+      <theme>Children Literature</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>Frankenstein by Mary Shelley</title>
+    <themes>
+      <theme>Dystopian Fiction</theme>
+      <theme>Poetry</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Giver by Lois Lowry</title>
+    <themes>
+      <theme>Science Fiction</theme>
+      <theme>Horror</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>The Golden Compass by Philip Pullman</title>
+    <themes>
+      <theme>Thriller</theme>
+      <theme>Science Fiction</theme>
+    </themes>
+    <levels>
+      <level>Advanced</level>
+      <level>Intermediate</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>Goodnight Moon by Margaret Wise Brown</title>
+    <themes>
+      <theme>Drama</theme>
+      <theme>Biography</theme>
+    </themes>
+    <levels>
+      <level>Intermediate</level>
+      <level>Advanced</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>meow</title>
+    <themes>
+      <theme>Drama</theme>
+      <theme>Fantasy</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermidiate</level>
+      <level>Advanced</level>
+    </levels>
+  </book>
+  <book>
+    <title>meow2</title>
+    <themes>
+      <theme>Adventure</theme>
+      <theme>Mystery</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Beginner</level>
+      <level>Beginner</level>
+    </levels>
+  </book>
+  <book>
+    <title>meow3</title>
+    <themes>
+      <theme>Fantasy</theme>
+      <theme>Science Fiction</theme>
+    </themes>
+    <levels>
+      <level>Beginner</level>
+      <level>Intermediate</level>
+      <level>Intermediate</level>
+    </levels>
+  </book>
+</books>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+  <user>
+    <name>Mara</name>
+    <surname>Laura</surname>
+    <preferredTheme>Fantasy</preferredTheme>
+    <readingLevel>Advanced</readingLevel>
+  </user>
+  <user>
+    <name>Mara Sofia </name>
+    <surname>Stan </surname>
+    <preferredTheme>Romance</preferredTheme>
+    <readingLevel>Beginner</readingLevel>
+  </user>
+  <user>
+    <name>maruwu</name>
+    <surname>Stan </surname>
+    <preferredTheme>Contemporary Fiction</preferredTheme>
+    <readingLevel>Advanced</readingLevel>
+  </user>
+</users>

@@ -1,0 +1,54 @@
+/* Main wrapper stays the same */
+.book-ui-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f4ff;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+/* Left side: BookList (top) + XslBookViewer (bottom) */
+.book-left-panel {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+/* Right panel (no changes) */
+.book-right-panel {
+  width: 30%;
+  padding: 2rem;
+  background: #fff0fa;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  border-left: 2px solid #ddd;
+}
+
+/* Limit BookList height */
+.book-list-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2rem;
+  background: #f9f4ff;
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
+.xsl-viewer {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2rem;
+  background: #f9f4ff;
+  font-family: 'Raleway', sans-serif;
+  border-top: 2px solid #ddd;
+  box-sizing: border-box;
+}
+
